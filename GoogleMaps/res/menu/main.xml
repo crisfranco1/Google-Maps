@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.googlemaps.MainActivity" >
+    <item android:id="@+id/item1" android:title="Tipos de mapa" android:icon="@drawable/tiposmapas">
+        <menu>
+            <item android:id="@+id/item2" android:title="Ninguno"/>
+            <item android:id="@+id/item3" android:title="Normal"/>
+            <item android:id="@+id/item4" android:title="Satelital"/>
+            <item android:id="@+id/item5" android:title="Hibrido"/>
+            <item android:id="@+id/item6" android:title="Terreno"/>
+        </menu>
+    </item>
+
+</menu>
